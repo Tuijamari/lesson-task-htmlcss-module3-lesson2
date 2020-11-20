@@ -12,4 +12,6 @@ Use Flexbox to lay out the following sections on the website.
 
 ### Video
 
+This video shows you how to complete the lesson task 3.2. Only watch it after attempting the lesson task by yourself.
+
 [View on Vimeo](https://vimeo.com/481248782/d58599b3e7)
