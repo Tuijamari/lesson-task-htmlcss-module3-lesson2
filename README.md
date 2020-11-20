@@ -4,7 +4,7 @@
 
 ### Brief
 
-Use Flexbox to position the following sections on the website.
+Use Flexbox to lay out the following sections on the website.
 - The header
 - On the home page, the 'Our Guitars Are' and Reviews' section
 - The Adinrondack Red page
