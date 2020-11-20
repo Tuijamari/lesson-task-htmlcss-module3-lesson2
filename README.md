@@ -11,4 +11,4 @@ Use Flexbox to position the following sections on the website.
 - The Contact page
 
 By the time you're finished the site should look like:
-![Result of task 3.2](assets/html-css-task3-2_result.gif)
+[![Result of task 3.2](assets/html-css-task3-2_result.gif)](assets/html-css-task3-2_result.gif)
