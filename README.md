@@ -29,4 +29,4 @@ Please note: To get Flexbox working correctly with images, please place the imag
 </section>
 ```
 
-[View on Vimeo](https://vimeo.com/481248782/d58599b3e7)
+Please do not view this video unless you've read the above. You have to place the images in a div/figure element. The video does not show this part of the process [View on Vimeo](https://vimeo.com/481248782/d58599b3e7)
