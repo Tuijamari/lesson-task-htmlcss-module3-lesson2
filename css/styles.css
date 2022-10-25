@@ -7,6 +7,18 @@ body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 h1,
 h2,
 .logo {
@@ -23,6 +35,13 @@ nav ul {
 
 nav li {
   display: inline-block;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+nav {
+  margin-left: 25px;
 }
 
 header,
@@ -93,6 +112,14 @@ footer {
   left: 100px;
 }
 
+.selling-points {
+  max-width: 1000px;
+  margin: 50 px auto;
+  display: flex;
+}
+.selling-points > *{
+  flex: 1;
+}
 .selling-points__images {
   border-radius: 100px;
 }
@@ -101,10 +128,53 @@ footer {
   border-radius: 50%;
 }
 
+/* Guitars page*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.wider-item {
+  flex: 4;
+}
+
+.item{
+  flex: 1;
+  margin: 5px;
+}
+
+
 /* Contact page */
 input,
 select,
 textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+}
+.container {
+  display: flex;
+  flex-direction:row;
+}
+
+section {
+  padding: 20px;
+  background-color: #e8e8e8;
+  
+}
+.item {
+  flex-direction: row;
+  margin: 5px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.message, .contact {
+  flex-direction: column;
+  margin: 5px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
