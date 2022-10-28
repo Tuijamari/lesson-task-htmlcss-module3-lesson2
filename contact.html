@@ -19,27 +19,42 @@
         </nav>
     </header>
     <main>
-      <h1 class="item">Contact</h1>
-        <section class="container">
+      <section class="flex-container">
+        <h1 class="flex-item">Contact</h1>
+      </section>
+        <section class="flex-container">
+            <figur class="flex-item name">
             <div class="contact"></div>
             <form method="POST">
             <label for="name">Full name</label>
+            </figur>
+            <figur class="flex-item email">
             <input type="text" id="name" name="name" />
             <label for="email">Email</label>
             <input type="email" id="email" name="Email" />
+            </figur>
+            <figur class="flex-item guitar">
             <label for="guitar">Guitar</label>
             <select id="guitar" name="Guitar">
+            </figur>
               <option value="Adirondack Red">Adirondack Red</option>
               <option value="Adirondack Blue">Adirondack Blue</option>
               <option value="Adirondack Green">Adirondack Green</option>
             </select>
-            <input type="checkbox" id="email-updates" name="email-updates" />
-            <label for="email-updates">Sign up for email updates.</label>
+            <figur class="flex-item sign up">
+              <input type="checkbox" id="email-updates" name="email-updates" />
+              <label for="email-updates">Sign up for email updates.</label>
+            </figur>
+        </section>
+        <section class="flex-container">
+            <figur class="flex-item">
             <div class="message"></div>
               <label for=" message">message</label>
               <textarea id="message" name="message"></textarea>
-            <div class="item"></div>
+            <div class="flex-item"></div>
               <input type="submit" value="Send Now" class="cta" />
+            </figur>
+        </section>
             </form>
           </div>
         </section>

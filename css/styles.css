@@ -53,6 +53,7 @@ footer {
 /* Links */
 a {
   text-decoration: none;
+  background-color: #202020;
 }
 
 header a {
@@ -103,6 +104,7 @@ footer {
   background-position-y: bottom;
   min-height: 70vh;
   position: relative;
+  margin: 10 px;
 }
 
 .welcome__content {
@@ -130,12 +132,16 @@ footer {
 
 /* Guitars page*/
 
-.container{
+.flex-container{
   display: flex;
   flex-direction: column;
+  
 }
-
-.wider-item {
+.flex-item{
+  margin: 10px
+  padding 5px
+}
+.item wider-item {
   flex: 4;
 }
 
@@ -152,9 +158,20 @@ textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
 }
-.container {
+
+.flex-item name, 
+email,
+guitar,
+sign up {
+  flex-direction: row;
+  margin: 5 px
+} 
+
+.flex-container {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
@@ -162,15 +179,7 @@ section {
   background-color: #e8e8e8;
   
 }
-.item {
-  flex-direction: row;
-  margin: 5px;
-  flex: none;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.message, .contact {
+.flex-item {
   flex-direction: column;
   margin: 5px;
   flex: none;
@@ -178,3 +187,4 @@ section {
   justify-content: center;
   flex-wrap: wrap;
 }
+ 
